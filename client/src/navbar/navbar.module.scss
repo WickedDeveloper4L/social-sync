@@ -1,0 +1,38 @@
+.main {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.7rem 1rem;
+  align-content: center;
+  font-family: "Montserrat", sans-serif;
+
+  .title {
+    font-size: 2rem;
+    font-weight: 900;
+    font-family: "Righteous", cursive;
+  }
+
+  .details {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 1rem;
+    gap: 1rem;
+    .texts {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      .name {
+        font-weight: 700;
+      }
+      .email {
+        font-size: 0.6rem;
+      }
+    }
+
+    .profile_image {
+      border-radius: 30% 70% 70% 30% / 30% 40% 60% 70%;
+      width: 3rem;
+      height: 3rem;
+    }
+  }
+}

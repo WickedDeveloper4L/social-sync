@@ -1,0 +1,19 @@
+{
+  "name": "socialsync",
+  "version": "1.0.0",
+  "description": "a MERN social contact app.",
+  "main": "index.js",
+  "scripts": {
+    "watch": "npm run server & npm run client",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd server && npm run watch",
+    "client": "cd client && npm run dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.2.1"
+  }
+}

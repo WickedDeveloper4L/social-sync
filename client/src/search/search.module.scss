@@ -1,0 +1,24 @@
+.main {
+  display: flex;
+  align-items: center;
+  background-color: #c5c5c5;
+  width: 50%;
+  border-radius: 15px;
+  gap: 1rem;
+  padding: 0rem 0.5rem;
+
+  .searchbar {
+    width: 100%;
+    padding: 0.6rem;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: black;
+  }
+
+  .icon {
+    font-size: 1.5rem;
+    font-weight: 900;
+    cursor: pointer;
+  }
+}
