@@ -6,7 +6,7 @@ const Contacts = ({ contactList }) => {
   return (
     <div className={styles.main}>
       {contactList.map((contact) => {
-        return <Contact key={contact.name} {...contact} />;
+        return <Contact key={contact._id} {...contact} />;
       })}
     </div>
   );

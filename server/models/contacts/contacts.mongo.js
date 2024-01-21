@@ -5,4 +5,6 @@ const contactsSchema = new mongoose.Schema({
   number: { type: String, required: true },
 });
 
-module.exports = mongoose.model("contact", contactsSchema);
+const contact = mongoose.model("contact", contactsSchema);
+
+module.exports = contact;

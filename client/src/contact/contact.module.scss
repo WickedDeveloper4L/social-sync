@@ -4,6 +4,7 @@
   justify-content: space-between;
   padding: 1rem;
   align-items: center;
+  position: relative;
   font-family: "Montserrat", sans-serif;
 
   .details {
@@ -25,10 +26,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    cursor: pointer;
+    gap: 1rem;
 
-    .icon {
+    .edit_icon {
       font-size: 1.3rem;
+      color: grey;
+      cursor: pointer;
+    }
+    .delete {
+      font-size: 1.3rem;
+      color: rgb(255, 6, 6);
+      cursor: pointer;
     }
   }
 }

@@ -29,11 +29,70 @@
     color: #fff;
     border-radius: 5px;
     border: none;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
     cursor: pointer;
     transition: 200ms ease-in-out;
+    text-decoration: none;
 
     &:hover {
       background-color: rgb(0, 110, 255);
     }
+  }
+  .loginModal {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 1rem;
+    width: 300px;
+    transition: 400ms ease-in;
+
+    .label {
+      font-size: 1rem;
+      font-weight: 600;
+    }
+
+    .input {
+      outline: none;
+      border-radius: 2px;
+      border: 1px solid grey;
+      padding: 10px 20px;
+      font-size: 1rem;
+      font-size: 500;
+    }
+    .btn {
+      padding: 10px 25px;
+      font-size: 1rem;
+      width: 150px;
+      font-weight: 600;
+      font-family: "Montserrat", sans-serif;
+      outline: none;
+      background-color: rgb(0, 140, 255);
+      color: #fff;
+      border-radius: 5px;
+      border: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+      cursor: pointer;
+      transition: 200ms ease-in-out;
+      text-decoration: none;
+      text-align: center;
+      align-self: center;
+      margin: 0 auto;
+
+      &:hover {
+        background-color: rgb(0, 110, 255);
+      }
+    }
+  }
+  .link {
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    cursor: pointer;
+    text-decoration: underline;
+    color: black;
   }
 }

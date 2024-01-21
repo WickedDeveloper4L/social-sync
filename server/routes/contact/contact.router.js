@@ -7,6 +7,7 @@ const {
 
 const contactsRouter = express.Router();
 
-contactsRouter.get("/", httpGetAllContacts);
-contactsRouter.post("/", httpAddNewContact);
+contactsRouter.post("/", httpGetAllContacts);
+contactsRouter.post("/new", httpAddNewContact);
+contactsRouter.delete("/", httpsDeleteContact);
 module.exports = contactsRouter;
